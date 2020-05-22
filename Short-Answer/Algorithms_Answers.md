@@ -16,7 +16,8 @@ each value between "bunnies" and "0" (the base case).
 ## Exercise II
 This is a binary search problem which makes this O(log n).
 
+```
 I'd first pick the middle floor (n/2) and drop.
     If it breaks ignore the lower floors and repeat/recurse
     If it doesn't break ignore the upper floors and repeat/recurse
-
+```
